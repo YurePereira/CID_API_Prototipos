@@ -1,0 +1,17 @@
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\bin\Debug\net8.0\CidApi.Infrastructure.deps.json
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\bin\Debug\net8.0\CidApi.Infrastructure.dll
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\bin\Debug\net8.0\CidApi.Infrastructure.pdb
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\bin\Debug\net8.0\CidApi.Application.dll
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\bin\Debug\net8.0\CidApi.Domain.dll
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\bin\Debug\net8.0\CidApi.Domain.pdb
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\bin\Debug\net8.0\CidApi.Application.pdb
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\net8.0\CidApi.Infrastructure.csproj.AssemblyReference.cache
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\net8.0\CidApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\net8.0\CidApi.Infrastructure.AssemblyInfoInputs.cache
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\net8.0\CidApi.Infrastructure.AssemblyInfo.cs
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\net8.0\CidApi.Infrastructure.csproj.CoreCompileInputs.cache
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\net8.0\CidApi.I.9E945F07.Up2Date
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\net8.0\CidApi.Infrastructure.dll
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\net8.0\refint\CidApi.Infrastructure.dll
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\net8.0\CidApi.Infrastructure.pdb
+f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\net8.0\ref\CidApi.Infrastructure.dll

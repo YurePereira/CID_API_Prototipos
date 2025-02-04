@@ -1,0 +1,11 @@
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\bin\Debug\net8.0\CidApi.Domain.deps.json
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\bin\Debug\net8.0\CidApi.Domain.dll
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\bin\Debug\net8.0\CidApi.Domain.pdb
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\obj\Debug\net8.0\CidApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\obj\Debug\net8.0\CidApi.Domain.AssemblyInfoInputs.cache
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\obj\Debug\net8.0\CidApi.Domain.AssemblyInfo.cs
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\obj\Debug\net8.0\CidApi.Domain.csproj.CoreCompileInputs.cache
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\obj\Debug\net8.0\CidApi.Domain.dll
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\obj\Debug\net8.0\refint\CidApi.Domain.dll
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\obj\Debug\net8.0\CidApi.Domain.pdb
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\obj\Debug\net8.0\ref\CidApi.Domain.dll

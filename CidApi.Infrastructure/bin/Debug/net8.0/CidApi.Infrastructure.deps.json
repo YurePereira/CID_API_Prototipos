@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CidApi.Infrastructure/1.0.0": {
+        "dependencies": {
+          "CidApi.Application": "1.0.0",
+          "CidApi.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CidApi.Infrastructure.dll": {}
+        }
+      },
+      "CidApi.Application/1.0.0": {
+        "dependencies": {
+          "CidApi.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CidApi.Application.dll": {}
+        }
+      },
+      "CidApi.Domain/1.0.0": {
+        "runtime": {
+          "CidApi.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CidApi.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CidApi.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CidApi.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
