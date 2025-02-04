@@ -1,22 +1,51 @@
 using CidApi.Domain.Interfaces;
 using CidApi.Domain.Models;
+using CidApi.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-namespace CidApi.Infrastructure.Repositories;
-
-public class CidRepository : ICidRepository
+namespace CidApi.Infrastructure.Repositories
 {
-    private static readonly List<Cid> Cids = new()
+    public class CidRepository : ICidRepository
     {
-        new Cid { Codigo = "A00", Descricao = "Cólera" },
-        new Cid { Codigo = "A01", Descricao = "Febre tifóide e paratifóide" },
-        new Cid { Codigo = "B01", Descricao = "Varicela" },
-        new Cid { Codigo = "Y100", Descricao = "Y 100" },
-        new Cid { Codigo = "Y1000", Descricao = "Y 1000" },
-        new Cid { Codigo = "J18", Descricao = "Pneumonia não especificada" }
-    };
+        private readonly CidDbContext _context;
 
-    public List<Cid> GetAll() => Cids;
+        public CidRepository(CidDbContext context)
+        {
+            _context = context;
+        }
 
-    public Cid? GetByCodigo(string codigo) =>
-        Cids.FirstOrDefault(c => c.Codigo.Equals(codigo, StringComparison.OrdinalIgnoreCase));
+        public async Task<IEnumerable<Cid>> GetAllAsync()
+        {
+            return await _context.Cids.ToListAsync();
+        }
+
+        public async Task<Cid?> GetByCodigoAsync(string codigo)
+        {
+            return await _context.Cids.FindAsync(codigo);
+        }
+
+        public async Task AddAsync(Cid cid)
+        {
+            _context.Cids.Add(cid);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(Cid cid)
+        {
+            _context.Cids.Update(cid);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(string codigo)
+        {
+            var cid = await GetByCodigoAsync(codigo);
+            if (cid != null)
+            {
+                _context.Cids.Remove(cid);
+                await _context.SaveChangesAsync();
+            }
+        }
+    }
 }

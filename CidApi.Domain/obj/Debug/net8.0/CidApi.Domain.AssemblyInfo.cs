@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CidApi.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6c318eddcaca8b74e09b31fd0435be0a3555acb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81a4a8b0d98f1d2a67d97a107f4955e64cdf7b42")]
 [assembly: System.Reflection.AssemblyProductAttribute("CidApi.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CidApi.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
