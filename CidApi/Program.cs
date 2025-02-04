@@ -4,6 +4,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
+using Microsoft.EntityFrameworkCore;
+using CidApi.Infrastructure.Data;
 using CidApi.Application.Services;
 using CidApi.Domain.Interfaces;
 using CidApi.Infrastructure.Repositories;
@@ -18,7 +20,9 @@ builder.Configuration
     .AddJsonFile($"appsettings.{environment}.json", optional: true, reloadOnChange: true)
     .AddEnvironmentVariables();
 
+//Configurar conexão com SQL Server:
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<CidDbContext>(options => options.UseSqlServer(connectionString));
 
 //Registrar dependências:
 builder.Services.AddScoped<ICidRepository, CidRepository>();
@@ -38,8 +42,8 @@ builder.Services.AddSwaggerGen(c =>
         Contact = new OpenApiContact
         {
             Name = "Suporte API Yure",
-            Email = "franciscoy@gmail.com",
-            Url = new Uri("https://github.com/seu-repositorio")
+            Email = "franciscoyurep@gmail.com",
+            Url = new Uri("https://github.com/YurePereira/CID_API_Prototipos")
         }
     });
 });
@@ -53,8 +57,15 @@ if (app.Environment.IsDevelopment() || environment == "Training")
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "CID API v1");
-        c.RoutePrefix = string.Empty; // Deixa o Swagger na raiz (`http://localhost:5000`)
+        c.RoutePrefix = string.Empty;//Deixa o Swagger na raiz (`http://localhost:5000`)
     });
+}
+
+//Aplicar migrações automaticamente ao iniciar o app:
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<CidDbContext>();
+    dbContext.Database.Migrate();
 }
 
 app.UseRouting();

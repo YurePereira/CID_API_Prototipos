@@ -13,3 +13,4 @@ F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Application\obj\Debug\net8
 F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Application\obj\Debug\net8.0\refint\CidApi.Application.dll
 F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Application\obj\Debug\net8.0\CidApi.Application.pdb
 F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Application\obj\Debug\net8.0\ref\CidApi.Application.dll
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Application\obj\Debug\net8.0\CidApi.Application.sourcelink.json

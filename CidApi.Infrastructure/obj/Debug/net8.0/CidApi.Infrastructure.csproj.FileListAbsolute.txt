@@ -15,3 +15,6 @@ f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\n
 f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\net8.0\refint\CidApi.Infrastructure.dll
 f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\net8.0\CidApi.Infrastructure.pdb
 f:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\net8.0\ref\CidApi.Infrastructure.dll
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\bin\Debug\net8.0\CidApi.Infrastructure.runtimeconfig.json
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\net8.0\CidApi.Infrastructure.sourcelink.json
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Infrastructure\obj\Debug\net8.0\CidApi.Infrastructure.genruntimeconfig.cache

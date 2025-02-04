@@ -9,3 +9,4 @@ F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\obj\Debug\net8.0\Ci
 F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\obj\Debug\net8.0\refint\CidApi.Domain.dll
 F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\obj\Debug\net8.0\CidApi.Domain.pdb
 F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\obj\Debug\net8.0\ref\CidApi.Domain.dll
+F:\projects\mini_prototipos\CID_API_Prototipos\CidApi.Domain\obj\Debug\net8.0\CidApi.Domain.sourcelink.json

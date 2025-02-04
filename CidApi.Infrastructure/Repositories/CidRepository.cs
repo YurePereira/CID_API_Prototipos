@@ -10,6 +10,8 @@ public class CidRepository : ICidRepository
         new Cid { Codigo = "A00", Descricao = "Cólera" },
         new Cid { Codigo = "A01", Descricao = "Febre tifóide e paratifóide" },
         new Cid { Codigo = "B01", Descricao = "Varicela" },
+        new Cid { Codigo = "Y100", Descricao = "Y 100" },
+        new Cid { Codigo = "Y1000", Descricao = "Y 1000" },
         new Cid { Codigo = "J18", Descricao = "Pneumonia não especificada" }
     };
 
